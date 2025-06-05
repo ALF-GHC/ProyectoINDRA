@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Antía Loureiro Ferrío - Portal de Eventos Sostenibles</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header>
+    <div class="col-header-logo">
+      <img src="images/logo.png" width="100%"/>
+    </div>
+    <div class="col-header-menu">
+      <h1>Portal de Eventos Sostenibles</h1>
+      <h2>Antía Loureiro Ferrío</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="eventos.html">Listado de Eventos</a></li>
+          <li><a href="inicio-sesion.html" aria-current="page">Iniciar Sesión</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <form action="" method="POST" class="formulario-sesion">
+      <h2>Registro</h2>
+
+      <label for="nick">Nick:</label>
+      <input type="text" id="nick" name="nick" required />
+
+      <label for="nombre">Nombre:</label>
+      <input type="text" id="nombre" name="nombre" required />
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="correo" required />
+
+      <label for="contrasena">Contraseña:</label>
+      <input type="password" id="contrasena" name="contrasena" required />
+
+      <div class="campo-cookies">
+        <label for="aceptaCookies">Acepto la <a href="#">Política de Cookies</a></label>
+        <input type="checkbox" id="aceptaCookies" name="aceptaCookies" required />
+      </div>
+
+      <button type="submit" class="btn">Entrar</button>
+
+    </form>
+  </main>
+
+  <footer>
+    <div class="columnas-footer">
+      <div class="col-footer">
+        <h3>Nosotros</h3>
+        <br>
+        <p>
+          Somos una plataforma dedicada a la promoción y gestión de eventos sostenibles.
+          Conectamos organizadores, proveedores y asistentes que comparten su compromiso
+          con el medio ambiente, la economía circular y el impacto social positivo.
+        </p>
+        <p>¡Todo por un mundo mejor!</p>
+      </div>
+      <div class="col-footer" id="servicios">
+        <h3>Servicios</h3>
+        <br>
+        <ul>
+          <li>Conexión con proveedores locales</li>
+          <li>Gestión de residuos y reciclaje</li>
+          <li>Medición de impacto ambiental</li>
+          <li>Capacitación en eventos verdes</li>
+      </ul>
+      </div>
+      <div class="col-footer">
+        <h3>Contacto</h3>
+        <br>
+        <p><i>Teléfono:</i> 666 666 666</p>
+        <p><i>Email:</i> antialoureiroferrio@gmail.com</p>
+        <p><i>Redes Sociales:</i></p>
+        <ul>
+          <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+          <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <p id="derechos">&copy; 2025 EcoLouFer. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
