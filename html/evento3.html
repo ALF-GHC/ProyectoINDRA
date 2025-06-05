@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Listado de Eventos - Portal de Eventos Sostenibles</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="col-header-logo">
+      <img src="images/logo.png" width="100%"/>
+    </div>
+    <div class="col-header-menu">
+      <h1>Portal de Eventos Sostenibles</h1>
+      <h2>Antía Loureiro Ferrío</h2>
+      <nav>
+        <ul>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="eventos.html">Listado de Eventos</a></li>
+          <li><a href="inicio-sesion.html">Iniciar Sesión</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-evento">
+    <section aria-label="Detalles del evento">
+      <article class="evento-detalle">
+        <div class="cabecera-evento">
+          <h2>Charla Movilidad Sostenible</h2>
+          <img src="images/movilidad_sostenible.jpg" alt="Charla Movilidad Sostenible" />
+          <a href="inicio-sesion.html"><button class="btn"><i class="fas fa-check"></i> Inscribirse</button></a>
+          <a href="inicio-sesion.html"><button class="btn btn-cancelar"><i class="fas fa-times"></i> Cancelar inscripción</button></a>
+        </div>
+
+        <div class="info-evento">
+          <h3><i class="fas fa-info-circle"></i> Información</h3>
+          <p><i class="fas fa-tags"></i> <strong>Categoría:</strong> Conferencia</p>
+          <p><i class="fas fa-calendar-alt"></i> <strong>Fecha:</strong> 25 de junio de 2025</p>
+          <p><i class="fas fa-clock"></i> <strong>Duración:</strong> 1.5 horas</p>
+          <p><i class="fas fa-globe"></i> <strong>Tipo:</strong> Online</p>
+          <p><i class="fas fa-map-marker-alt"></i> <strong>Ubicación:</strong> -</p>
+          <p><i class="fas fa-check-circle"></i> <strong>Estado:</strong> Abierto</p>
+          <hr>
+          <p><strong>Descripción:</strong></p>
+          <p>
+            Descubre cómo usar bicicletas y transporte público de forma eficiente para reducir la huella de carbono
+            y mejorar la calidad de vida urbana.
+          </p>
+        </div>
+
+        <div class="org-evento">
+          <h3><i class="fas fa-users"></i> Organizadores</h3>
+          <p>Red de Movilidad Urbana</p>
+          <p><i class="fas fa-envelope"></i> contacto@movilidadurbana.net</p>
+          <p><i class="fas fa-phone"></i> 600 987 654</p>
+        </div>
+
+        <div class="agenda-evento">
+          <h3><i class="fas fa-calendar-check"></i> Agenda</h3>
+          <div class="hora-agenda">
+            <p><strong>18:00 - 18:15</strong></p>
+            <p>Introducción a la movilidad sostenible</p>
+          </div>
+          <div class="hora-agenda">
+            <p><strong>18:15 - 19:30</strong></p>
+            <p>Presentación de casos prácticos y herramientas</p>
+          </div>
+        </div>
+
+        <div class="ponentes-evento">
+          <h3><i class="fas fa-chalkboard-teacher"></i> Ponentes Destacados</h3>
+          <h4>Ing. Javier Morales</h4>
+          <p>Especialista en transporte sostenible y urbanismo, Universidad Politécnica de Cataluña.</p>
+        </div>
+      </article>
+    </section> 
+  </main>
+
+  <footer>
+    <div class="columnas-footer">
+      <div class="col-footer">
+        <h3>Nosotros</h3>
+        <br>
+        <p>
+          Somos una plataforma dedicada a la promoción y gestión de eventos sostenibles.
+          Conectamos organizadores, proveedores y asistentes que comparten su compromiso
+          con el medio ambiente, la economía circular y el impacto social positivo.
+        </p>
+        <p>¡Todo por un mundo mejor!</p>
+      </div>
+      <div class="col-footer" id="servicios">
+        <h3>Servicios</h3>
+        <br>
+        <ul>
+          <li>Conexión con proveedores locales</li>
+          <li>Gestión de residuos y reciclaje</li>
+          <li>Medición de impacto ambiental</li>
+          <li>Capacitación en eventos verdes</li>
+      </ul>
+      </div>
+      <div class="col-footer">
+        <h3>Contacto</h3>
+        <br>
+        <p><i>Teléfono:</i> 666 666 666</p>
+        <p><i>Email:</i> antialoureiroferrio@gmail.com</p>
+        <p><i>Redes Sociales:</i></p>
+        <ul>
+          <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+          <li><a href="https://www.facebook.com" target="_blank">Facebook</a></li>
+        </ul>
+      </div>
+    </div>
+    <br>
+    <p id="derechos">&copy; 2025 EcoLouFer. Todos los derechos reservados.</p>
+  </footer>
+  <script src="js/filtro-categoria.js"></script>
+</body>
+</html>
